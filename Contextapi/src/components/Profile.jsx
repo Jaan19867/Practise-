@@ -9,6 +9,7 @@ function Profile() {
     const {user}=useContext(UserContext)
   return (
     <div>
+        console.log(user);
       <h1>{
   user
 
